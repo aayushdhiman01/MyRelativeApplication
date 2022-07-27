@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imgFlights" type="id">imgFlights</item>
+    <item name="imgRockets" type="id">imgRockets</item>
+    <item name="imgRovers" type="id">imgRovers</item>
+</resources>

@@ -1,18 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imgspace"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/spacestation"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@id/imgRockets"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/imgspace"
+        android:src="@drawable/rocket" />
+    <ImageView
+        android:id="@id/imgRovers"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/imgRockets"
+        android:src="@drawable/rocket" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/tvSpaceStation"
+        android:text="@string/Space_Station"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/imgspace"/>
+
+    <TextView
+        android:id="@+id/tvRockets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgRockets"
+        android:layout_marginLeft="67dp"
+        android:layout_toRightOf="@id/tvSpaceStation"
+        android:text="@string/Rocket"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:text="@string/DCA"
+        android:layout_below="@id/tvSpaceStation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
