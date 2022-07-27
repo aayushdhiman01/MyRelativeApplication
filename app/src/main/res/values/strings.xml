@@ -3,4 +3,7 @@
     <string name="DCA">DCA</string>
     <string name="Space_Station">Space Stations</string>
     <string name="Rocket">Rockets</string>
+    <string name="Rovers">Rovers</string>
+    <string name="MARS">MARS</string>
+
 </resources>

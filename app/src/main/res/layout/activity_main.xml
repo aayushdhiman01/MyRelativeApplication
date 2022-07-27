@@ -23,6 +23,7 @@
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@id/imgspace"
         android:src="@drawable/rocket" />
+
     <ImageView
         android:id="@id/imgRovers"
         android:layout_width="80dp"
@@ -30,7 +31,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@id/imgRockets"
-        android:src="@drawable/rocket" />
+        android:src="@drawable/rovers" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,15 +50,51 @@
         android:layout_toRightOf="@id/tvSpaceStation"
         android:text="@string/Rocket"
         android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvRovers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgRovers"
+        android:layout_marginLeft="85dp"
+        android:layout_toRightOf="@id/tvRockets"
+        android:text="@string/Rovers"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="52dp"
-        android:layout_height="52dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/teal_200"
+        android:id="@+id/DCA"
+        android:textStyle="bold"
+        android:gravity="center"
         android:text="@string/DCA"
+        android:layout_below="@id/tvRockets"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="70dp"
+         />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/MARS"
+        android:background="@color/teal_200"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/MARS"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/DCA"
         android:layout_below="@id/tvSpaceStation"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="70dp"
+       />
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/imgspace"
+        android:layout_below="@id/imgspace"
+        android:src="@drawable/arrows" />
 
 </RelativeLayout>
