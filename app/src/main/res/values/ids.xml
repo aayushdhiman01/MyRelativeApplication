@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="imgFlights" type="id">imgFlights</item>
+    <item name="imgspace" type="id">imgspace</item>
     <item name="imgRockets" type="id">imgRockets</item>
     <item name="imgRovers" type="id">imgRovers</item>
+    <item name="tvSpaceStation" type="id">tvSpaceStation</item>
+    <item name="tvRockets" type="id">tvRockets</item>
+    <item name="tvRovers" type="id">tvRovers</item>
+    <item name="DCA" type="id">DCA</item>
+    <item name="MARS" type="id">MARS</item>
+    <item name="imgArrow" type="id">imgArrow</item>
+    <item name="switch1" type="id">switch1</item>
+    <item name="Traveller" type="id">Traveller</item>
 </resources>
