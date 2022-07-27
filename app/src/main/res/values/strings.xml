@@ -5,5 +5,7 @@
     <string name="Rocket">Rockets</string>
     <string name="Rovers">Rovers</string>
     <string name="MARS">MARS</string>
+    <string name="Traveller">1 Traveller</string>
+    <string name="OneWay">One Way</string>
 
 </resources>
