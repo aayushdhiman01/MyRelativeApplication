@@ -16,7 +16,7 @@
         android:layout_marginTop="30dp"/>
 
     <ImageView
-        android:id="@id/imgRockets"
+        android:id="@+id/imgRockets"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginLeft="60dp"
@@ -25,7 +25,7 @@
         android:src="@drawable/rocket" />
 
     <ImageView
-        android:id="@id/imgRovers"
+        android:id="@+id/imgRovers"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginLeft="60dp"
